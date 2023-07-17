@@ -1,0 +1,32 @@
+{
+  "name": "mysql2-wrapper",
+  "version": "1.0.0",
+  "description": "mysql2-wrapper is a lightweight, promise-based wrapper around the popular mysql2 Node.js library, designed to simplify and streamline MySQL database operations. This package provides an easy-to-use and intuitive API for executing SQL queries and managing transactions, making it a valuable tool for developers working with MySQL databases in Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/dbWrapper.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryansalatti/mysql2-wrapper.git"
+  },
+  "keywords": [
+    "mysql2",
+    "wrapper",
+    "nodejs"
+  ],
+  "author": "Ryan Salatti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryansalatti/mysql2-wrapper/issues"
+  },
+  "homepage": "https://github.com/ryansalatti/mysql2-wrapper#readme",
+  "dependencies": {
+    "mysql2": "^3.5.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^10.2.0"
+  }
+}
