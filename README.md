@@ -12,10 +12,7 @@ mysql2-wrapper is a lightweight, promise-based wrapper around the popular mysql2
 7. [License](#license)
 
 ## Installation
-To install this module, run the following command:
-```javascript
-npm install mysql2-wrapper
-```
+
 ## Usage
 First, initialize your database connector and then the wrapper:
 ```javascript
